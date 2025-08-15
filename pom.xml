@@ -2475,16 +2475,6 @@
               </resources>
             </configuration>
           </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>buildnumber-maven-plugin</artifactId>
-        <configuration>
-          <timestampFormat>yyyy</timestampFormat>
-          <timestampPropertyName>build.year</timestampPropertyName>
-        </configuration>
-        <executions>
           <execution>
             <goals>
               <goal>create-timestamp</goal>

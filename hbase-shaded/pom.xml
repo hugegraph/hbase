@@ -38,6 +38,7 @@
     <module>hbase-shaded-testing-util-tester</module>
     <module>hbase-shaded-check-invariants</module>
     <module>hbase-shaded-with-hadoop-check-invariants</module>
+    <module>hbase-shaded-endpoint</module>
   </modules>
   <properties>
     <!-- Don't make a test-jar -->
@@ -46,6 +47,7 @@
     <source.skip>true</source.skip>
     <license.bundles.dependencies>true</license.bundles.dependencies>
     <shaded.prefix>org.apache.hadoop.hbase.shaded</shaded.prefix>
+    <hbase.groupid>org.apache.hbase</hbase.groupid>
   </properties>
   <dependencies>
     <dependency>
@@ -579,10 +581,10 @@
                 <bundled-bootstrap>${license.bundles.bootstrap}</bundled-bootstrap>
               </properties>
               <resourceBundles>
-                <resourceBundle>${project.groupId}:hbase-resource-bundle:${project.version}</resourceBundle>
+                <resourceBundle>${hbase.groupid}:hbase-resource-bundle:${project.version}</resourceBundle>
               </resourceBundles>
               <supplementalModelArtifacts>
-                <supplementalModelArtifact>${project.groupId}:hbase-resource-bundle:${project.version}</supplementalModelArtifact>
+                <supplementalModelArtifact>${hbase.groupid}:hbase-resource-bundle:${project.version}</supplementalModelArtifact>
               </supplementalModelArtifacts>
               <supplementalModels>
                 <supplementalModel>supplemental-models.xml</supplementalModel>
