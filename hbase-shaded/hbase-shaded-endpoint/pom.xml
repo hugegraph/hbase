@@ -32,7 +32,7 @@
   <groupId>com.baidu.hugegraph</groupId>
   <artifactId>hbase-shaded-endpoint</artifactId>
   <name>hugegraph-hbase-shaded-endpoint</name>
-  <url>https://github.com/hugegraph/hbase/tree/HBASE-26097/hbase-shaded/hbase-shaded-endpoint</url>
+  <url>https://github.com/hugegraph/hbase/tree/hbase-2.5.11-shaded/hbase-shaded/hbase-shaded-endpoint</url>
   <description>
     is a Java-written client of hbase, providing
     operations of hbase and not the third dependency conflict etc.
@@ -55,9 +55,9 @@
   </licenses>
 
   <scm>
-    <url>https://github.com/hugegraph/hbase/tree/HBASE-26097/hbase-shaded/hbase-shaded-endpoint</url>
-    <connection>https://github.com/hugegraph/hbase/tree/HBASE-26097/hbase-shaded/hbase-shaded-endpoint</connection>
-    <developerConnection>https://github.com/hugegraph/hbase/tree/HBASE-26097/hbase-shaded/hbase-shaded-endpoint
+    <url>https://github.com/hugegraph/hbase/tree/hbase-2.5.11-shaded/hbase-shaded/hbase-shaded-endpoint</url>
+    <connection>https://github.com/hugegraph/hbase/tree/hbase-2.5.11-shaded/hbase-shaded/hbase-shaded-endpoint</connection>
+    <developerConnection>https://github.com/hugegraph/hbase/tree/hbase-2.5.11-shaded/hbase-shaded/hbase-shaded-endpoint
     </developerConnection>
   </scm>
 

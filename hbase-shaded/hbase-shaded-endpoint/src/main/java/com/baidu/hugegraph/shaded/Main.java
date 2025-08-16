@@ -22,7 +22,7 @@ package com.baidu.hugegraph.shaded;
 /**
  * This project is to resolve hbase-endpoint dependency conflict, and this
  * class been created for generate java doc
- * See <a href="https://github.com/apache/hbase/blob/rel/2.0.6/hbase-endpoint/">
+ * See <a href="https://github.com/apache/hbase/blob/rel/2.5.11/hbase-endpoint/">
  *     hbase-endpoint</a>
  */
 public class Main {
